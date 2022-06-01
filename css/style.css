@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto Slab';
+    margin: auto;
+    background-color: #ddd;  
+}
+p{
+    line-height: 28px;
+    text-align: justify;
+}
+nav{
+    text-transform: uppercase;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background-color: #004880;
+}
+.active,.kursevi, .biografija, .kontakt, .home{
+    color: white;
+    text-decoration: none;
+}
+.linkovi {
+    
+    width: 100%;
+    margin: 0;
+    
+}
+.linkovi :hover{
+    background-color: #de0911;
+}
+.active:hover{
+    background-color: #de0911;
+}
+.linkovi li{
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    left: -40px;
+    line-height: 1.7;
+    list-style: none;
+    text-align: center;
+}
+main{
+    width: 75%;
+}
+.col-3{
+    width: 33.33%;
+    float: left;
+}
+.inner-wrapper, .wrapper{
+    padding: 0 15px;
+}
+
+.clearfix{
+    clear:both;
+}
+h1{
+    text-transform: uppercase;
+    color: #004880;
+    text-align: center;
+    font-size: 35px;
+}
+h3{
+    text-align: center;
+}
+p{
+    margin: 15px 0;
+}
+.image{
+    background-color: white;
+}
+.sekcija2{
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.p-30{
+    padding-top: 30px;
+}
+.scale:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.scale{
+    transition: 1s all linear;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+th{
+    width: 30%;
+    background-color: grey;
+    font-weight: bold;
+    
+}
+th:hover{
+    background-color: #004880;
+    color: white;
+}
+td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+form{
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    display: table;
+    float: right;
+    width: 50%;
+    background-color: coral;
+}
+input, textarea{
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    border: 1px solid black;
+    
+    
+}
+label, textarea,input{
+    resize: vertical;
+    display: table;
+    width: 60%;
+    
+}
+label{
+    padding: 20px;
+}
+.submit{
+    position: relative;
+    bottom: 20px;
+    background-color: green;
+    color: #fff;
+    width: 65%;
+}
+.poruka{
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+
+
+
